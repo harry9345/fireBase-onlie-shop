@@ -1,0 +1,80 @@
+.navbar {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 0;
+  top: 0;
+  box-sizing: border-box;
+  background-color: rgba(111, 111, 121, 0.801);
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+}
+.navItem {
+  text-decoration: none;
+  margin: 15px;
+}
+.navItem :last-child {
+  right: 0;
+}
+.products {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.card {
+  width: 20rem;
+  box-sizing: content-box;
+  padding: 15px;
+  margin: 15px;
+}
+.paymentCon {
+  display: block;
+  justify-content: center;
+  float: left;
+}
+.cartCard {
+  width: 15rem;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+.calculate {
+  display: block;
+  position: fixed;
+  right: 300px;
+  top: 74px;
+  background-color: rgba(111, 111, 121, 0.801);
+  color: white;
+  height: 900px;
+  width: 30%;
+}
+.payRow {
+  display: block;
+  width: 105%;
+  height: 80%;
+}
+.price {
+  font-weight: 600;
+  right: 0;
+}
+.productTotal {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.52);
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.inTotal {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
