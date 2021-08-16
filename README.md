@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# An online store with firebase datebase
+ run npm start to install dependencies.\
+ ita a simple page to add your favarite product to a cart page using the firebase data base(firestore).
+ as its a realtime database it a bit slow to update and render itself again
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
